@@ -15,10 +15,10 @@ int m2_ZF_Direction=9;  // ZF <br>
 int m2_VR_speed=8;    //VR <br>
 
 
-pinMode(m1_EL_Start_Stop, OUTPUT);//stop/start - EL 
-pinMode(m1_Signal_hall, INPUT);   //plus       - Signal  
-pinMode(m1_ZF_Direction, OUTPUT); //direction  - ZF 
+pinMode(m1_EL_Start_Stop, OUTPUT);//stop/start - EL <br>
+pinMode(m1_Signal_hall, INPUT);   //plus       - Signal  <br>
+pinMode(m1_ZF_Direction, OUTPUT); //direction  - ZF <br>
 
-pinMode(m2_EL_Start_Stop, OUTPUT);//stop/start - EL 
-pinMode(m2_Signal_hall, INPUT);   //plus       - Signal  
-pinMode(m2_ZF_Direction, OUTPUT); //direction  - ZF 
+pinMode(m2_EL_Start_Stop, OUTPUT);//stop/start - EL <br>
+pinMode(m2_Signal_hall, INPUT);   //plus       - Signal  <br>
+pinMode(m2_ZF_Direction, OUTPUT); //direction  - ZF <br>

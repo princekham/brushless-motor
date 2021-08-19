@@ -1,5 +1,32 @@
 # brushless-motor
+
 https://www.youtube.com/watch?v=IrWBQBgoqf0&t=339s
+<H4>Pin Connections</H4>
+- <b>Hall Sensor </b>
+- blue - 5V <br>
+-w blue - Gnd <br>
+-w green - Ha <br>
+- orange - Hb <br>
+- w orange - Hc <br>
+-
+<H5>SET</H5> 
+blue - 5V <br>
+w blue - Gnd <br>
+Green - EL <br>
+w Green - Signal <br>
+Orange - Z/F <br>
+w Orange - VR <br><br>
+<H5>Big Wire connections</H5>
+
+A - + <br>
+B - - <br>
+3 - Mc <br>
+4 - Mb <br>
+5 - Ma <br>
+
+
+
+
 
 <H4>Pin Connections</H4>
 <H4>Motor 1</H4>
@@ -7,8 +34,8 @@ int m1_EL_Start_Stop=5;  //EL  <br>
 int m1_Signal_hall=2;   // Signal - Hall sensor . This can be used as external interrupt pin<br>
 int m1_ZF_Direction=4;  // ZF <br>
 int m1_VR_speed=6;    //VR <br> 
-
-<H4>Motor 2</H4>
+ 
+<H4>Motor 2</H4> 
 int m2_EL_Start_Stop=10;  //EL <br>
 int m2_Signal_hall=3;   // Signal - Hall sensor. This will use external interrupt pin <br>
 int m2_ZF_Direction=9;  // ZF <br>

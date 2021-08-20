@@ -49,3 +49,17 @@ pinMode(m1_ZF_Direction, OUTPUT); //direction  - ZF <br>
 pinMode(m2_EL_Start_Stop, OUTPUT);//stop/start - EL <br>
 pinMode(m2_Signal_hall, INPUT);   //plus       - Signal  <br>
 pinMode(m2_ZF_Direction, OUTPUT); //direction  - ZF <br>
+
+
+<H4> ISR for Hall effect sensor</H4>
+ attachInterrupt(digitalPinToInterrupt(m1_Signal_hall), plus1, CHANGE);<br>
+ attachInterrupt(digitalPinToInterrupt(m2_Signal_hall), plus2, CHANGE); <br>
+ <H4> The function for ISR</H4>
+ void plus() { <br>
+  pos++; //count steps <br>
+  Serial.println(pos); <br>
+    if(pos>=steps){ <br>
+    wheelStop(); <br>
+    pos=0; <br>
+  } <br>
+} <br>
